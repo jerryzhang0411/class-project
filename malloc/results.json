@@ -1,0 +1,464 @@
+[
+  {
+    "timestamp": "2017-02-24 22:00:00.586789",
+    "revision": "36764",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-13",
+        "description": "./mcontest testers_exe/tester-13 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:42:9: error: expected member name or ';' after declaration specifiers\n    int invisibleChecker;\n    ~~~ ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:42:8: error: expected ';' at end of declaration list\n    int invisibleChecker;\n       ^\n       ;\nalloc.c:54:5: error: non-void function 'preAllocSearch' should return a value [-Wreturn-type]\n    return;\n    ^\nalloc.c:60:60: error: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Werror,-Wsign-compare]\n    if((curr->free) && (curr->size >= size) && (curr->size <= bound)){\n                                                ~~~~~~~~~~ ^  ~~~~~\nalloc.c:86:14: error: unused variable 'sb' [-Werror,-Wunused-variable]\n  metadata * sb = inputMeta->next;\n             ^\nalloc.c:100:21: warning: unused parameter 'num' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                    ^\nalloc.c:100:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *calloc(size_t num, size_t size) {\n                                ^\nalloc.c:148:16: error: expected identifier\n      myChild->invisibleChecker = invisibleChecker;\n               ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:159:22: error: use of undeclared identifier 'myChild'\n    tempHold->next = myChild;\n                     ^\nalloc.c:163:15: error: expected identifier\n    tempHold->invisibleChecker = invisibleChecker;\n              ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:172:43: error: expected ')'\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                          ^\nalloc.c:172:34: note: to match this '('\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n                                 ^\nalloc.c:172:53: error: too few arguments to function call, expected 3, have 1\n  memset((void*)tempHold + sizeof(metadata, 0, size));\n  ~~~~~~                                            ^\nalloc.c:177:13: error: expected identifier\n  tempHold->invisibleChecker = invisibleChecker;\n            ^\nalloc.c:34:26: note: expanded from macro 'invisibleChecker'\n#define invisibleChecker 1103711037\n                         ^\nalloc.c:207:17: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid free(void *ptr) {\n                ^\nalloc.c:257:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:257:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\n5 warnings and 11 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "413893869f3562ad877dc8073eaef4fff5ee99a5  alloc.c\n35d332fe0330f44a5f0c46b64266d7759fcda2bc  nickname.txt\n"
+  },
+  {
+    "timestamp": "2017-02-25 22:00:01.473539",
+    "revision": "37338",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 104\n[mcontest]: AVG: 103.999995\n[mcontest]: TIME: 0.796000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 48128337\n[mcontest]: AVG: 45051740.228925\n[mcontest]: TIME: 29.988000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2097297\n[mcontest]: AVG: 2096947.079586\n[mcontest]: TIME: 0.636000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 1073740897\n[mcontest]: AVG: 536870473.000000\n[mcontest]: TIME: 0.180000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil).\nYour heap starts from 0x116d000, ends at 0x32116d000\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 5523162\n[mcontest]: AVG: 5051340.714286\n[mcontest]: TIME: 0.000000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 1073741921\n[mcontest]: AVG: 536870985.000000\n[mcontest]: TIME: 0.356000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil).\nYour heap starts from 0xbaf000, ends at 0x320baf000\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-13",
+        "description": "./mcontest testers_exe/tester-13 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil).\nYour heap starts from 0x18bf000, ends at 0x3218bf000\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "b025cb0f7f25c75b386a4e2869a2b4194975aaca  alloc.c\n35d332fe0330f44a5f0c46b64266d7759fcda2bc  nickname.txt\n"
+  },
+  {
+    "timestamp": "2017-02-26 22:00:01.253574",
+    "revision": "38551",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 5233712\n[mcontest]: AVG: 2616878.000000\n[mcontest]: TIME: 29.988000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 47320437\n[mcontest]: AVG: 44647795.431962\n[mcontest]: TIME: 29.988000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 6284355729\n[mcontest]: AVG: 3142440017.130141\n[mcontest]: TIME: 2.380000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 12388556120\n[mcontest]: AVG: 6898210581.768785\n[mcontest]: TIME: 4.108000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 20420939\n[mcontest]: AVG: 11525151.988204\n[mcontest]: TIME: 29.992000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-13",
+        "description": "./mcontest testers_exe/tester-13 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4400000\n[mcontest]: AVG: 2200022.000000\n[mcontest]: TIME: 21.576000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "126d3e639eacb433a63a07cbcef4b272b67dedab  alloc.c\n35d332fe0330f44a5f0c46b64266d7759fcda2bc  nickname.txt\n"
+  },
+  {
+    "timestamp": "2017-02-27 14:00:01.462333",
+    "revision": "39330",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 88\n[mcontest]: AVG: 87.999996\n[mcontest]: TIME: 0.472000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 47345429\n[mcontest]: AVG: 44660293.040348\n[mcontest]: TIME: 29.988000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2097273\n[mcontest]: AVG: 2096923.082256\n[mcontest]: TIME: 0.324000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 1610614197\n[mcontest]: AVG: 1546915504.152542\n[mcontest]: TIME: 0.000000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 5164384\n[mcontest]: AVG: 4490518.357143\n[mcontest]: TIME: 0.000000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 2207136251\n[mcontest]: AVG: 1642733393.615385\n[mcontest]: TIME: 1.444000\n\n\nstderr:\n",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-13",
+        "description": "./mcontest testers_exe/tester-13 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 88\n[mcontest]: AVG: 87.999560\n[mcontest]: TIME: 0.148000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "7236b2cc722ad3dbb2b1ce193455aee499ef9f7a  alloc.c\n35d332fe0330f44a5f0c46b64266d7759fcda2bc  nickname.txt\n"
+  },
+  {
+    "timestamp": "2017-02-28 00:00:00.801753",
+    "revision": "40598",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 44\n[mcontest]: AVG: 44.000000\n[mcontest]: TIME: 0.324000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 272842833\n[mcontest]: AVG: 215126076.500002\n[mcontest]: TIME: 0.676000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1048657\n[mcontest]: AVG: 1048569.520564\n[mcontest]: TIME: 0.316000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1610611008\n[mcontest]: AVG: 1610610111.998418\n[mcontest]: TIME: 0.100000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1178764721\n[mcontest]: AVG: 601330970.676610\n[mcontest]: TIME: 2.544000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2445745506\n[mcontest]: AVG: 2007810115.097561\n[mcontest]: TIME: 8.052000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-13",
+        "description": "./mcontest testers_exe/tester-13 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 44\n[mcontest]: AVG: 44.000000\n[mcontest]: TIME: 0.144000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "065d9d608b89b099000081eca61c7d5fcc5383ec  alloc.c\ne4aea22655c47d2cd99d37b4ae46907371c1562c  nickname.txt\n"
+  },
+  {
+    "timestamp": "2017-03-07 00:00:00.606850",
+    "revision": "48470",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4\n[mcontest]: AVG: 4.000000\n[mcontest]: TIME: 0.248000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 335806460\n[mcontest]: AVG: 262348771.000012\n[mcontest]: TIME: 1.720000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1048624\n[mcontest]: AVG: 1048536.519897\n[mcontest]: TIME: 0.324000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073742896\n[mcontest]: AVG: 1073742703.996982\n[mcontest]: TIME: 1.512000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 621318120\n[mcontest]: AVG: 318088154.543627\n[mcontest]: TIME: 0.248000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1968526824\n[mcontest]: AVG: 1628215176.786885\n[mcontest]: TIME: 8.324000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2505397736\n[mcontest]: AVG: 1863620980.137931\n[mcontest]: TIME: 3.408000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2505397736\n[mcontest]: AVG: 1710033383.288889\n[mcontest]: TIME: 4.652000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 812581440\n[mcontest]: AVG: 427410883.540266\n[mcontest]: TIME: 0.252000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 541065360\n[mcontest]: AVG: 541062419.766789\n[mcontest]: TIME: 0.064000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147484728\n[mcontest]: AVG: 2147448972.938845\n[mcontest]: TIME: 0.028000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073742904\n[mcontest]: AVG: 1061943531.428571\n[mcontest]: TIME: 10.672000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "d95ff42e210a3b1847b293f7530e7ad40d7c60d6  alloc.c\ne30310d227473f9a963ad7e8b1e3f6d2b13361d0  nickname.txt\n"
+  },
+  {
+    "timestamp": "2017-03-07 03:55:16.098599",
+    "revision": "48470",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4\n[mcontest]: AVG: 4.000000\n[mcontest]: TIME: 0.240000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 335806460\n[mcontest]: AVG: 262348771.000012\n[mcontest]: TIME: 1.716000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1048624\n[mcontest]: AVG: 1048536.519897\n[mcontest]: TIME: 0.328000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073742896\n[mcontest]: AVG: 1073742703.996982\n[mcontest]: TIME: 1.524000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 621318120\n[mcontest]: AVG: 318088154.543627\n[mcontest]: TIME: 0.248000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1968526824\n[mcontest]: AVG: 1628215176.786885\n[mcontest]: TIME: 8.352000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2505397736\n[mcontest]: AVG: 1863620980.137931\n[mcontest]: TIME: 3.396000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2505397736\n[mcontest]: AVG: 1710033383.288889\n[mcontest]: TIME: 4.652000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 812581440\n[mcontest]: AVG: 427410883.540266\n[mcontest]: TIME: 0.248000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 541065360\n[mcontest]: AVG: 541062419.766789\n[mcontest]: TIME: 0.068000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147484728\n[mcontest]: AVG: 2147448972.938845\n[mcontest]: TIME: 0.028000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073742904\n[mcontest]: AVG: 1061943531.428571\n[mcontest]: TIME: 10.776000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "d95ff42e210a3b1847b293f7530e7ad40d7c60d6  alloc.c\ne30310d227473f9a963ad7e8b1e3f6d2b13361d0  nickname.txt\n"
+  }
+]
